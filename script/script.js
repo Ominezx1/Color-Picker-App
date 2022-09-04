@@ -30,3 +30,16 @@
 //     console.warn('something went wrong', err);
 // })
 
+
+function fetchData(){
+    fetch("https://colornames.org/fresh/json/", {mode: 'no-cors'})
+    .then((response) => response.json())
+    .then((json) => takeData(json));
+
+}
+
+function takeData(data){
+    console.log(data);
+}
+
+fetchData();
