@@ -74,7 +74,9 @@ function quickSel(value){
 // request.send();
 
 
-fetch('json/colors.json', {mode: 'no-cors'})
+// fetch('json/colors.json', {mode: 'no-cors'})
+//switched to the link #url...
+fetch('https://colornames.org/fresh/json', {mode: 'no-cors'})
 .then((response) =>
     //Denote call being successful
     // console.log('success', response.json()
