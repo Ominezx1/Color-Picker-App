@@ -3,5 +3,48 @@
 *{
     font-family: "Quicksand", sans-serif;
     box-sizing: border-box;
-    
+    margin: 0px;
+    padding: 0px;
+
+}
+.main{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgba(0,0,0,.4);
+}
+.main #sel
+{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    background-color : transparent;
+}
+.text{
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    color: rgba(0,0,0,.9);
+}
+.main #sel, option{
+    outline: none;
+
+}
+.main option{
+    padding: 10px;
+    font-size: 20px;
+    color: #434343;
 }
