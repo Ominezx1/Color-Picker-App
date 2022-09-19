@@ -80,15 +80,12 @@ function quickSel(value){
 // ... added cors mode ... 
 // ... chnage this response or request redir/
 fetch('https://colornames.org/fresh/json/', {mode: 'no-cors'})
-.then((response) =>
-    //Denote call being successful
-    // console.log('success', response.json()
-    response.json())
+    .then((response) => response.json())
     .then((json) => list(json))
     .catch(function(err){
-    //Denote error
-    console.warn('something went wrong', err);
-})
+        //Denote error
+        console.warn('something went wrong', err);
+    })
 
 let listBracket = []; 
 
