@@ -76,6 +76,7 @@ function quickSel(value){
 
 // fetch('json/colors.json', {mode: 'no-cors'})
 //switched to the link #url...
+// ...uhhhh
 // ... remove cors mode
 // ... added cors mode ... 
 // ... chnage this response or request redir/
